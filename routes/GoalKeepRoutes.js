@@ -15,6 +15,10 @@ router
    .route("/tasks")
    .get(taskController.getAllTasks);
 
+router
+  .route("/:month/tasks")
+  .get(taskController.getTasksForMonth)
+
 // Months routes
 router
 .route("/months")

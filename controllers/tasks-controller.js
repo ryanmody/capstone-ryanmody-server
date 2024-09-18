@@ -3,6 +3,21 @@ import configuration from "../knexfile.js";
 
 const knex = initKnex(configuration);
 
+//Get tasks based on month
+const getTasksForMonth = async (req, res) => {
+  const month = req.params.month
+
+  try {
+    const tasksByMonth = await knex("tasks")
+    .select("*")
+    .where("month", month)
+
+    res.status(200).json(tasksByMonth);
+  } catch (error) {
+    console.error(error)
+  }
+}
+
 
 //Get all tasks
 const getAllTasks = async (_req, res) => {
@@ -25,4 +40,4 @@ const getAllTasks = async (_req, res) => {
   }
 };
 
-export { getAllTasks };
+export { getAllTasks, getTasksForMonth };
