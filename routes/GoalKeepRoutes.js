@@ -1,6 +1,7 @@
 import express from "express";
 import * as categoryController from "../controllers/category-controller.js";
 import * as taskController from "../controllers/tasks-controller.js";
+import * as monthsController from "../controllers/months-controller.js";
 
 const router = express.Router();
 
@@ -13,6 +14,11 @@ router
 router
    .route("/tasks")
    .get(taskController.getAllTasks);
+
+// Months routes
+router
+.route("/months")
+.get(monthsController.getAllMonths);
 
 
 export default router;
