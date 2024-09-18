@@ -19,6 +19,10 @@ router
   .route("/:month/tasks")
   .get(taskController.getTasksForMonth)
 
+router
+  .route("/:month/:date/tasks")
+  .get(taskController.getTasksForDay)
+
 // Months routes
 router
 .route("/months")

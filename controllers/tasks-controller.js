@@ -4,13 +4,48 @@ import configuration from "../knexfile.js";
 const knex = initKnex(configuration);
 
 //Get tasks based on month
+const getTasksForDay = async(req, res) => {
+  const date = req.params.date
+  const month = req.params.month
+
+  try {
+  const tasksByDay = await knex('tasks')
+  .join('categories','tasks.category_id', '=', 'categories.id')
+  .where('date', date)
+  .where('month', month)
+  .select(
+    "tasks.id",
+    "category_id",
+    "tasks.name",
+    "tasks.description",
+    "month",
+    "date",
+    "color"
+    )
+
+    res.status(200).json(tasksByDay);
+  } catch (error) {
+    console.error(error)
+  }
+}
+
+//Get tasks based on month
 const getTasksForMonth = async (req, res) => {
   const month = req.params.month
 
   try {
     const tasksByMonth = await knex("tasks")
-    .select("*")
+    .join('categories', 'tasks.category_id', '=', 'categories.id')
     .where("month", month)
+    .select(
+      "tasks.id",
+      "category_id",
+      "tasks.name",
+      "tasks.description",
+      "month",
+      "date",
+      "color"
+      )
 
     res.status(200).json(tasksByMonth);
   } catch (error) {
@@ -40,4 +75,4 @@ const getAllTasks = async (_req, res) => {
   }
 };
 
-export { getAllTasks, getTasksForMonth };
+export { getAllTasks, getTasksForMonth, getTasksForDay };
