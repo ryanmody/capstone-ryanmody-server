@@ -86,7 +86,7 @@ export async function seed(knex) {
         id: 11,
         category_id: 3,
         name: 'Push day',
-        description: '4x Chest press\n3x Incline DB Press\n3x Chest Flyes\n4x Overhead Cable Extensions\nTricep Dips\n5x Single-arm tricep extensions\n5x Rotator Cuff pivots',
+        description: '4x Chest press,\n3x Incline DB Press,\n3x Chest Flyes,\n4x Overhead Cable Extensions,\n3x Tricep Dips,\n5x Single-arm tricep extensions,\n5x Rotator Cuff',
         month: 'October',
         date: '16'
       },

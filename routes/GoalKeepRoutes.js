@@ -18,6 +18,10 @@ router
    .post(taskController.postNewTask);
 
 router
+  .route("/:taskId")
+  .delete(taskController.deleteTask);
+
+router
   .route("/:month/tasks")
   .get(taskController.getTasksForMonth)
 
