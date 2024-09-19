@@ -8,12 +8,14 @@ const router = express.Router();
 // Category routes
 router
   .route("/categories")
-  .get(categoryController.getAllCategories);
+  .get(categoryController.getAllCategories)
+  .post(categoryController.postNewCategory);
 
 // Tasks routes
 router
    .route("/tasks")
-   .get(taskController.getAllTasks);
+   .get(taskController.getAllTasks)
+   .post(taskController.postNewTask);
 
 router
   .route("/:month/tasks")

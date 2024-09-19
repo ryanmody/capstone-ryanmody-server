@@ -3,6 +3,13 @@ import configuration from "../knexfile.js";
 
 const knex = initKnex(configuration);
 
+//Post new task
+const postNewTask = async (req, res) => {
+  
+  const updatedTasks = await knex('tasks').insert(req.body)
+  res.status(201).json(updatedTasks[0]).end()
+}
+
 //Get tasks based on month
 const getTasksForDay = async(req, res) => {
   const date = req.params.date
@@ -75,4 +82,4 @@ const getAllTasks = async (_req, res) => {
   }
 };
 
-export { getAllTasks, getTasksForMonth, getTasksForDay };
+export { getAllTasks, getTasksForMonth, getTasksForDay, postNewTask};
