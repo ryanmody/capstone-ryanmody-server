@@ -1,5 +1,4 @@
 export async function seed(knex) {
-    // Deletes ALL existing entries
     await knex('months').del();
     await knex('months').insert([
       {
