@@ -1040,6 +1040,366 @@ export async function seed(knex) {
         description: '4x Bench Press\n3x Squats\n3x Deadlifts\n3x Overhead Press',
         month: 'October',
         date: '21'
+      },
+      {
+        id: 131,
+        category_id: 4,
+        name: 'Team meeting preparation',
+        description: 'Prepare agenda for weekly team meeting and create talking points',
+        month: 'September',
+        date: '12'
+      },
+      {
+        id: 132,
+        category_id: 5,
+        name: 'Watch movie with friends',
+        description: 'Pick a movie and set up a movie night with friends',
+        month: 'September',
+        date: '13'
+      },
+      {
+        id: 133,
+        category_id: 6,
+        name: 'Sketch a new character design',
+        description: 'Create a character design for your portfolio',
+        month: 'September',
+        date: '15'
+      },
+      {
+        id: 134,
+        category_id: 7,
+        name: 'Renew car insurance',
+        description: 'Check renewal date and renew car insurance policy',
+        month: 'September',
+        date: '17'
+      },
+      {
+        id: 135,
+        category_id: 4,
+        name: 'Client presentation',
+        description: 'Present project progress to the client',
+        month: 'September',
+        date: '19'
+      },
+      {
+        id: 136,
+        category_id: 5,
+        name: 'Dinner with family',
+        description: 'Plan and enjoy dinner with family at a local restaurant',
+        month: 'September',
+        date: '22'
+      },
+      {
+        id: 137,
+        category_id: 6,
+        name: 'Finish reading a novel',
+        description: 'Finish the last 3 chapters of your current book',
+        month: 'September',
+        date: '23'
+      },
+      {
+        id: 138,
+        category_id: 7,
+        name: 'Schedule dentist appointment',
+        description: 'Call dentist and schedule a cleaning',
+        month: 'September',
+        date: '25'
+      },
+      {
+        id: 139,
+        category_id: 4,
+        name: 'Create project timeline',
+        description: 'Draft timeline for new product launch',
+        month: 'September',
+        date: '27'
+      },
+      {
+        id: 140,
+        category_id: 5,
+        name: 'Go to the beach',
+        description: 'Spend an afternoon relaxing at the beach with friends',
+        month: 'September',
+        date: '28'
+      },
+      {
+        id: 141,
+        category_id: 6,
+        name: 'Start learning guitar',
+        description: 'Practice beginner guitar chords for 30 minutes',
+        month: 'October',
+        date: '1'
+      },
+      {
+        id: 142,
+        category_id: 7,
+        name: 'Renew gym membership',
+        description: 'Check the renewal date and renew your gym membership for the next year',
+        month: 'October',
+        date: '2'
+      },
+      {
+        id: 143,
+        category_id: 4,
+        name: 'Review quarterly performance reports',
+        description: 'Analyze and review performance reports for Q3',
+        month: 'October',
+        date: '3'
+      },
+      {
+        id: 144,
+        category_id: 5,
+        name: 'Attend local festival',
+        description: 'Visit a local food or music festival with friends',
+        month: 'October',
+        date: '4'
+      },
+      {
+        id: 145,
+        category_id: 6,
+        name: 'Paint a landscape',
+        description: 'Create a landscape painting for your art collection',
+        month: 'October',
+        date: '5'
+      },
+      {
+        id: 146,
+        category_id: 7,
+        name: 'Buy groceries for the week',
+        description: 'Create a grocery list and shop for weekly essentials',
+        month: 'October',
+        date: '7'
+      },
+      {
+        id: 147,
+        category_id: 4,
+        name: 'Submit financial report',
+        description: 'Finalize and submit Q3 financial report to leadership',
+        month: 'October',
+        date: '8'
+      },
+      {
+        id: 148,
+        category_id: 5,
+        name: 'Go on a hike',
+        description: 'Plan a hiking trip with friends or family',
+        month: 'October',
+        date: '9'
+      },
+      {
+        id: 149,
+        category_id: 6,
+        name: 'Play a board game',
+        description: 'Have a game night with friends and play board games',
+        month: 'October',
+        date: '11'
+      },
+      {
+        id: 150,
+        category_id: 7,
+        name: 'Pay utility bills',
+        description: 'Pay all due utility bills for the month',
+        month: 'October',
+        date: '12'
+      },
+      {
+        id: 151,
+        category_id: 4,
+        name: 'Send project status update',
+        description: 'Email project status update to the team and stakeholders',
+        month: 'October',
+        date: '14'
+      },
+      {
+        id: 152,
+        category_id: 5,
+        name: 'Watch sports game with friends',
+        description: 'Host a get-together to watch your favorite sports game',
+        month: 'October',
+        date: '15'
+      },
+      {
+        id: 153,
+        category_id: 6,
+        name: 'Learn a new recipe',
+        description: 'Try a new recipe and cook a meal from scratch',
+        month: 'October',
+        date: '16'
+      },
+      {
+        id: 154,
+        category_id: 7,
+        name: 'Call a family member',
+        description: 'Catch up with a family member you haven’t spoken to in a while',
+        month: 'October',
+        date: '18'
+      },
+      {
+        id: 155,
+        category_id: 4,
+        name: 'Prepare training session',
+        description: 'Prepare materials and content for next week’s training session',
+        month: 'October',
+        date: '20'
+      },
+      {
+        id: 156,
+        category_id: 5,
+        name: 'Attend a concert',
+        description: 'Go to a live concert with friends or family',
+        month: 'October',
+        date: '22'
+      },
+      {
+        id: 157,
+        category_id: 6,
+        name: 'Join a photography workshop',
+        description: 'Sign up and attend a beginner photography workshop',
+        month: 'October',
+        date: '23'
+      },
+      {
+        id: 158,
+        category_id: 7,
+        name: 'Car maintenance',
+        description: 'Take your car for routine maintenance and oil change',
+        month: 'October',
+        date: '24'
+      },
+      {
+        id: 159,
+        category_id: 4,
+        name: 'Update project roadmap',
+        description: 'Review and update project roadmap based on new objectives',
+        month: 'November',
+        date: '1'
+      },
+      {
+        id: 160,
+        category_id: 5,
+        name: 'Play video games',
+        description: 'Spend the evening playing your favorite video games',
+        month: 'November',
+        date: '2'
+      },
+      {
+        id: 161,
+        category_id: 6,
+        name: 'Practice piano',
+        description: 'Spend 30 minutes practicing the piano',
+        month: 'November',
+        date: '3'
+      },
+      {
+        id: 162,
+        category_id: 7,
+        name: 'Organize closet',
+        description: 'Clean and organize your closet for the season',
+        month: 'November',
+        date: '4'
+      },
+      {
+        id: 163,
+        category_id: 4,
+        name: 'Lead product demo',
+        description: 'Host and lead product demo for stakeholders',
+        month: 'November',
+        date: '5'
+      },
+      {
+        id: 164,
+        category_id: 5,
+        name: 'Attend game night',
+        description: 'Go to a local bar for a game night event',
+        month: 'November',
+        date: '6'
+      },
+      {
+        id: 165,
+        category_id: 6,
+        name: 'Bake cookies',
+        description: 'Bake a batch of cookies for friends or family',
+        month: 'November',
+        date: '8'
+      },
+      {
+        id: 166,
+        category_id: 7,
+        name: 'Clean up the yard',
+        description: 'Rake leaves and clean up the backyard for winter',
+        month: 'November',
+        date: '9'
+      },
+      {
+        id: 167,
+        category_id: 4,
+        name: 'Submit product launch plan',
+        description: 'Submit detailed plan for upcoming product launch',
+        month: 'November',
+        date: '10'
+      },
+      {
+        id: 168,
+        category_id: 5,
+        name: 'Watch a TV series',
+        description: 'Start watching a new TV series over the weekend',
+        month: 'November',
+        date: '11'
+      },
+      {
+        id: 169,
+        category_id: 6,
+        name: 'Finish knitting project',
+        description: 'Complete the scarf you’ve been knitting',
+        month: 'November',
+        date: '12'
+      },
+      {
+        id: 170,
+        category_id: 7,
+        name: 'File taxes',
+        description: 'Prepare and file taxes before the deadline',
+        month: 'November',
+        date: '13'
+      },
+      {
+        id: 171,
+        category_id: 4,
+        name: 'Draft performance review',
+        description: 'Prepare draft of year-end performance reviews for team members',
+        month: 'December',
+        date: '1'
+      },
+      {
+        id: 172,
+        category_id: 5,
+        name: 'Attend a holiday party',
+        description: 'Join the annual holiday party with friends or coworkers',
+        month: 'December',
+        date: '3'
+      },
+      {
+        id: 173,
+        category_id: 6,
+        name: 'Work on DIY project',
+        description: 'Start building a bookshelf for your home office',
+        month: 'December',
+        date: '5'
+      },
+      {
+        id: 174,
+        category_id: 7,
+        name: 'Send out holiday cards',
+        description: 'Write and send holiday cards to family and friends',
+        month: 'December',
+        date: '6'
+      },
+      {
+        id: 175,
+        category_id: 4,
+        name: 'Plan team-building activity',
+        description: 'Organize a team-building activity for your department',
+        month: 'December',
+        date: '7'
       }
     ]);
   };

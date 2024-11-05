@@ -18,6 +18,30 @@ export async function seed(knex) {
         name: 'Nutrition and Fitness',
         details: 'Actions for maintaining health and wellness!',
         color: 'blue'
-      }
+      },
+      {
+        id: 4,
+        name: 'Job Responsibilities',
+        details: 'Tasks related to my current job',
+        color: 'yellow'
+      },
+      {
+        id: 5,
+        name: 'Chill & Hangouts',
+        details: 'Spend time with loved ones :-) ',
+        color: 'orange'
+      },
+      {
+        id: 6,
+        name: 'Hobbies',
+        details: 'Bucket for piqued interests',
+        color: 'pink'
+      },
+      {
+        id: 7,
+        name: 'Other',
+        details: 'Other tasks',
+        color: 'purple'
+      },
     ]);
   };
